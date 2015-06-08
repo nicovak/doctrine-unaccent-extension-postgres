@@ -11,6 +11,12 @@ First you have to add the extension on the targeted database. Execute the follow
     CREATE EXTENSION unaccent;
         
 
+You may need the following package: (replace * with your version)
+
+
+    sudo apt-get install postgresql-contrib-9.*
+
+
 Add the UnaccentString class in your project and adapt the namespace.
 After that, you have to add this in your app/config/config.yml:
 
