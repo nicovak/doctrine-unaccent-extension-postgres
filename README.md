@@ -43,5 +43,7 @@ Now we can simple override the default sonata string filter, in your services.ym
             
 ### SOURCES ###
 Unaccent function in postgres docs: http://www.postgresql.org/docs/9.1/static/unaccent.html
+
 CaseInsensitiveStringFilter: https://gist.github.com/dbu/9524776
+
 Unaccent string function: https://github.com/ICanBoogie/Common/blob/ec90b2d854a49882c814c84f67ed54bbb566aac0/lib/helpers.php
